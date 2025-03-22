@@ -205,7 +205,11 @@ if username and password:
                 "team_season_xg_per_direct_free_kick_conceded",
                 "team_season_xg_per_free_kick_conceded",
                 "team_season_xg_per_sp_conceded",
-                "team_season_xg_per_throw_in_conceded"
+                "team_season_xg_per_throw_in_conceded",
+                "team_season_successful_passes_conceded_pg",
+                "team_season_yellow_cards_pg",
+                "team_season_red_cards_pg", 
+                
             ]
             results = rank_team_metrics(teams_data, input_team_name, ascending_metrics)
             total_teams = len(teams_data)
